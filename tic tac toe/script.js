@@ -15,13 +15,15 @@ const statusDisplay = document.getElementById('status');
 
 const winningMessage = function(){
     return currentPlayer + "'s Wins!";
-}
+}; 
+
 const drawMessage = function(){
     return "Draw!";
-}
+}; 
 const currentPlayerTurn = function(){
     return "It's " + currentPlayer + "'s turn";
-}
+}; 
+
 
 document.querySelectorAll('.cell').forEach(function(cell) {
     cell.addEventListener('click', CellClick);
@@ -64,7 +66,6 @@ function ResultValidation() {
             continue;
         }
         if (a === b && b === c) {
-            
             roundWon = true;
             break;
         }
