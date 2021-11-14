@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "workshop1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,8 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-service": "^4.5.15",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [

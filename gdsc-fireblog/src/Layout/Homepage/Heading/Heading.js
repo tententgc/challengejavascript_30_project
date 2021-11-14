@@ -10,8 +10,8 @@ class Heading extends Component{
     }
 
     toggle= ()=>{
-        this.setState(state:{
-            isOpen:!this.state.isOpen
+        this.setState( state: {
+            isOpen: !this.state.isOpen
         })
     }
 
